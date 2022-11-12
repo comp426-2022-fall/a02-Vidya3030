@@ -22,4 +22,20 @@ if (args.h) {
     }
 }
 
-const timezone = moment.tz.guess()
+const timezone = moment.tz.guess();
+
+// Make a request
+const response = await fetch();
+
+// Get the data from the requst
+const data = await response.json();
+
+const days = args.d 
+
+if (days == 0) {
+  console.log("today.")
+} else if (days > 1) {
+  console.log("in " + days + " days.")
+} else {
+  console.log("tomorrow.")
+}
