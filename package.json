@@ -1,0 +1,28 @@
+{
+  "name": "a02-vidya3030",
+  "version": "1.0.0",
+  "description": "a02 assignment",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-Vidya3030.git"
+  },
+  "author": "Vidya3030",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-Vidya3030/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-Vidya3030#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.3.0"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module"
+}
